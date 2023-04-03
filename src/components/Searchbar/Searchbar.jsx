@@ -7,6 +7,8 @@ import css from './Searchbar.module.css';
 export class Searchbar extends Component {
   state = { inputValue: '' };
 
+  //handleChange вызываем, когда вводим текст в поисковую 
+  // строку и обновляем inputValue
   handleChange = event => {
     this.setState({ inputValue: event.target.value });
   };
