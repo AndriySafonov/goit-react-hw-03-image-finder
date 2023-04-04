@@ -15,7 +15,7 @@ export class App extends Component {
     imageCards: [],
     loading: false,
     showModal: false,
-    selectedImgCard: undefined,
+    selectedImgCard: null,
   };
 
   // метод обрабатывает изменения searchQuery и page, 
